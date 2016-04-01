@@ -3,6 +3,6 @@ clone_depth: 10
 
 build_script:
   - CD scripts
-  - ps: ./integrate.ps
+  - ps: ./integrate.ps1
 
 test: off
