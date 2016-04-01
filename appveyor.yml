@@ -6,3 +6,6 @@ build_script:
   - ps: ./integrate.ps1
 
 test: off
+
+artifacts:
+  - path: nuget\*.nupkg
