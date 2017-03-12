@@ -1,0 +1,11 @@
+version: "0.0.{build}"
+clone_depth: 10
+
+build_script:
+  - CD scripts
+  - ps: ./integrate.ps1
+
+test: off
+
+artifacts:
+  - path: nuget\*.nupkg
