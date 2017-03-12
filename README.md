@@ -1,6 +1,6 @@
 # froko.csprojSetup.Sample #
 
-Current release: 1.1.1
+Current release: 1.1.2
 
 Current Status:
 
