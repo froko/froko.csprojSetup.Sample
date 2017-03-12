@@ -1,5 +1,5 @@
 version: '{build}'
 build_script:
-- ps: CD scripts; integrate.ps1
+- ps: CD scripts; ./integrate.ps1
 artifacts:
 - path: nuget\*.nupkg
