@@ -29,6 +29,7 @@ namespace MyLibrary
         /// Capitalizes the first letter of each word
         /// </summary>
         /// <param name="text">A text containing one or more words</param>
+        /// <returns>A string with capitalized first letters of each word</returns>
         public static string CapitalizeFirstLetter(this string text)
         {
             if (string.IsNullOrEmpty(text))
